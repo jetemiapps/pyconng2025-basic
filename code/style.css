@@ -11,8 +11,8 @@
   --sand-color: #FDDF8A;
   --text-color: #202020;
   --light-text: #F4F0F0;
-  --font-family-dyna: 'DynaPuff', sans-serif;
-  --font-family-body: 'DynaPuff', sans-serif;
+  --font-family-head: 'Fredoka One', sans-serif;
+  --font-family-body: 'Inter', sans-serif;
   
   /* Glitter effect variables */
   --glitter-opacity: 0.9;
@@ -63,7 +63,8 @@ section.hero {
 }
 
 section h1 {
-  font-family: var(--font-family-dyna);
+  font-family: var(--font-family-head);
+  font-weight: 400;
   font-size: 56px;
   margin-bottom: 20px;
   /* text-align: center; */
@@ -71,16 +72,18 @@ section h1 {
 }
 
 section h2 {
-  font-family: var(--font-family-dyna);
+  font-family: var(--font-family-head);
   font-size: 36px;
+  font-weight: 400;
   margin-bottom: 20px;
   text-align: center;
   color: var(--primary-color);
 }
 
 section h3 {
-  font-family: var(--font-family-dyna);
+  font-family: var(--font-family-head);
   font-size: 28px;
+  font-weight: 400;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -99,7 +102,7 @@ section p {
   text-decoration: none;
   padding: 12px 28px;
   border-radius: 30px;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
   transition: all 0.3s ease;
   cursor: pointer;

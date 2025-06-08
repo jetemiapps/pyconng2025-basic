@@ -30,9 +30,9 @@
   
   .footer-column h3 {
     font-size: 16px;
-    font-weight: 600;
     margin-bottom: 15px;
-    font-family: var(--font-family-dyna);
+    font-weight: 400;
+    font-family: var(--font-family-head);
   }
   
   .footer-column a {

@@ -116,11 +116,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const island2 = document.querySelector('.island-2');
   
   if (island1 && !island1.style.animation) {
-    island1.style.animation = 'float 6s ease-in-out 0s infinite';
+    island1.style.animation = 'float 3s ease-in-out 0s infinite';
   }
   
   if (island2 && !island2.style.animation) {
-    island2.style.animation = 'float 8s ease-in-out 1s infinite';
+    island2.style.animation = 'float 4s ease-in-out 1s infinite';
   }
   
   // Ensure train animation works
